@@ -102,8 +102,4 @@ if wynik == "Nożyce" and wybierz == "3":
     print("Remis")
     engine.say(imie + "Jest Remis")
     engine.runAndWait()
-<<<<<<< HEAD
-=======
-
-    print("nowy comit2")333dddsssdsd
->>>>>>> cbd06567db248ed93f0ba75d7add6ac7f4ad918d
+    Print("Dziękuję za grę")
