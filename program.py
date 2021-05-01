@@ -103,4 +103,4 @@ if wynik == "Nożyce" and wybierz == "3":
     engine.say(imie + "Jest Remis")
     engine.runAndWait()
 
-    print("nowy comit2")333dddss
+    print("nowy comit2")333dddsssdsd
