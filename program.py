@@ -103,3 +103,5 @@ if wynik == "Nożyce" and wybierz == "3":
     engine.say(imie + "Jest Remis")
     engine.runAndWait()
     Print("Dziękuję za grę")
+    engine.say(imie + "Dziękuję za grę")
+    engine.runAndWait()
