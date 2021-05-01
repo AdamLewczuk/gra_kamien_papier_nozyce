@@ -100,4 +100,4 @@ if wynik == "Nożyce" and wybierz == "3":
     print("Dziękuję za grę")
     engine.say(imie + "Dziękuję za grę")
     engine.runAndWait()
-y
+yy
