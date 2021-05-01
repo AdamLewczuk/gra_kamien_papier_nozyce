@@ -3,21 +3,16 @@ import random
 
 engine = pyttsx3.init()
 engine.setProperty("voice", "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PL-PL_PAULINA_11.0")
-
 engine.setProperty("rate", 140)
 engine.setProperty('age', 20)
-
 engine.say("Jak masz na imię?")
 engine.runAndWait()
 imie = input("Jak masz na imię?: ")
-
 print("Cześć", imie)
 engine.say("Cześć" + imie)
 engine.runAndWait()
-
 engine.say("Zagrajmy w kamień,papier,nożyce")
 engine.runAndWait()
-
 engine.say("Wybierz jedną z opcji z menu")
 engine.runAndWait()
 engine.say(imie + "Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. ")
@@ -102,6 +97,6 @@ if wynik == "Nożyce" and wybierz == "3":
     print("Remis")
     engine.say(imie + "Jest Remis")
     engine.runAndWait()
-    Print("Dziękuję za grę")
+    print("Dziękuję za grę")
     engine.say(imie + "Dziękuję za grę")
     engine.runAndWait()
