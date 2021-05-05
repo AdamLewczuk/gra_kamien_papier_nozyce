@@ -34,12 +34,7 @@ print ("Wybierasz",wynik_wypisz_ruch)
 def komputer_losuje():
     losowanie = ["Kamień", "Papier", "Nożyce"]
     wynik = (random.choice(losowanie))
-    if wynik == "Kamień":
-        return "Kamień"
-    if wynik == "Papier":
-        return "Papier"
-    if wynik == "Nożyce":
-        return "Nożyce"
+    return wynik
 
 wypisz = komputer_losuje()
 print ("Ja wybrałem",wypisz)
