@@ -20,8 +20,8 @@ wynik_wypisz_ruch = funkcje.wypisz_ruch(wybierz)
 print ("Wybierasz",wynik_wypisz_ruch)
 
 wynik = funkcje.komputer_losuje()
-print ("Ja wybrałem",wypisz)
-engine.say("Ja wybrałem" + wypisz)
+print ("Ja wybrałem ",wynik)
+engine.say("Ja wybrałem" + wynik)
 engine.runAndWait()
 
 sprawdzam = funkcje.sprawdzwynik(wybierz,wynik)
