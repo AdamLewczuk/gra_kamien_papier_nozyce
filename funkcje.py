@@ -38,9 +38,3 @@ def sprawdzwynik(wybierz,wynik):
     elif wybierz == "1" and wynik == "Nożyce":
         x = "Wygrywasz"
         return x
-<<<<<<< HEAD
-   
-=======
-   
-    
->>>>>>> de6157bd159bb88f60cc5ae93ae74d3fe39212f3
