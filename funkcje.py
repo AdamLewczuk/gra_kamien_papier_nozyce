@@ -29,10 +29,14 @@ def czy_kobieta(imie):
 # funkcja sprawdzająca końcowy wynik. Zwraca wartość w postaci wyniku. 
 
 def sprawdzwynik(wybierz,wynik):
-    if wybierz == "Kamień" and wynik == "Kamień":
-        return "Jest remis"
-    if wybierz == "Kamień" and wynik == "Papier":
-        return "Przegrywasz"
-    if wybierz == "Kamień" and wynik == "Nożyce":
-        return "Wygrywasz"
+    if wybierz == "1" and wynik == "Kamień":
+        x = "Jest remis"
+        return x
+    elif wybierz == "1" and wynik == "Papier":
+        x = "Przegrywasz"
+        return x
+    elif wybierz == "1" and wynik == "Nożyce":
+        x = "Wygrywasz"
+        return x
+   
     
