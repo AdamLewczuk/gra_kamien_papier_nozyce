@@ -19,7 +19,7 @@ wybierz = input("Wybierz jedną z opcji: Kamień (1),Papier(2), Nożyce(3)")
 wynik_wypisz_ruch = funkcje.wypisz_ruch(wybierz)
 print ("Wybierasz",wynik_wypisz_ruch)
 
-wypisz = funkcje.komputer_losuje()
+wynik = funkcje.komputer_losuje()
 print ("Ja wybrałem",wypisz)
 engine.say("Ja wybrałem" + wypisz)
 engine.runAndWait()
