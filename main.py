@@ -14,6 +14,7 @@ print("Cześć", imie)
 engine.say("Cześć" + imie)
 engine.say("Zagrajmy w kamień,papier,nożyce")
 
+
 def graj():
     engine.say("Wybierz jedną z opcji z menu")
     engine.say(imie + "Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. ")
@@ -25,10 +26,13 @@ def graj():
     print ("Ty wybrałeś",wynik_wypisz_ruch,"Ja wybrałem",wynik,"Ty",sprawdzam)
     engine.say("Ty wybrałeś" + wynik_wypisz_ruch + "Ja wybrałem" + wynik + "Ty" + sprawdzam)
     engine.runAndWait()
-
     print(sprawdzam)
-graj()  
-ponownie = input("Jeżeli chcesz zagrać ponownie wciśnij 1")
-if ponownie == "1":
-    graj()
-else: print("Dziękuje za grę")
+   
+graj()
+
+def ponow():
+    ponownie = input("Jeżeli chcesz zagrać ponownie wciśnij 1")  
+    while ponownie == "1":
+        graj()
+    else: print("Dziękuje za grę")
+ponow ()

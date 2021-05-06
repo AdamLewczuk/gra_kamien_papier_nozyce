@@ -56,6 +56,7 @@ def sprawdzwynik(wybierz,wynik):
     elif wybierz == "3" and wynik == "Nożyce":
         x = "Remis"
         return x
+
 # funkcja mówiąca
 def mow():
     lista = ["Zagrajmy w kamień, papier, nożyce","Wybierz jedną z opcji w menu","Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. "]
