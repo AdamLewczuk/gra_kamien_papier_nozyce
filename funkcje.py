@@ -26,7 +26,7 @@ def czy_kobieta(imie):
     else:
         return False
 
-# funkcja sprawdzająca końcowy wynik. Zwraca wartość w postaci wyniku. 
+# funkcja sprawdzająca końcowy wynik. Zwraca wartość w postaci zmiennej x. 
 
 def sprawdzwynik(wybierz,wynik):
     if wybierz == "1" and wynik == "Kamień":
@@ -38,3 +38,28 @@ def sprawdzwynik(wybierz,wynik):
     elif wybierz == "1" and wynik == "Nożyce":
         x = "Wygrywasz"
         return x
+    elif wybierz == "2" and wynik == "Kamień":
+        x = "Wygrywasz"
+        return x
+    elif wybierz == "2" and wynik == "Papier":
+        x = "Remis"
+        return x
+    elif wybierz == "2" and wynik == "Nożyce":
+        x = "Przegrywasz"
+        return x
+    elif wybierz == "3" and wynik == "Kamień":
+        x = "Przegrywasz"
+        return x
+    elif wybierz == "3" and wynik == "Papier":
+        x = "Wygrywasz"
+        return x
+    elif wybierz == "3" and wynik == "Nożyce":
+        x = "Remis"
+        return x
+# funkcja mówiąca
+def mow():
+    lista = ["Zagrajmy w kamień, papier, nożyce","Wybierz jedną z opcji w menu","Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. "]
+    return lista
+
+wywolaj_mowi = mow()
+print(wywolaj_mowi[1])
