@@ -22,9 +22,9 @@ def graj():
     wybierz = input("Wybierz jedną z opcji: Kamień (1),Papier(2), Nożyce(3)")
     wynik_wypisz_ruch = funkcje.wypisz_ruch(wybierz)
     wynik = funkcje.komputer_losuje()
-    sprawdzam = funkcje.sprawdzwynik(wybierz,wynik)
-    print ("Ty wybrałeś",wynik_wypisz_ruch,"Ja wybrałem",wynik,"Ty",sprawdzam)
-    engine.say("Ty wybrałeś" + wynik_wypisz_ruch + "Ja wybrałem" + wynik + "Ty" + sprawdzam)
+    sprawdzam = funkcje.sprawdz_wynik(wybierz,wynik)
+    print ("Ty wybrałeś",wynik_wypisz_ruch,"Ja wybrałam",wynik,"Ty",sprawdzam)
+    engine.say("Ty wybrałeś" + wynik_wypisz_ruch + "Ja wybrałam" + wynik + "Ty" + sprawdzam)
     engine.runAndWait()
     print(sprawdzam)
    
