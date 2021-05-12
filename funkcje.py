@@ -1,12 +1,16 @@
+# funkcja_rozpoznawania_głosu
+
+
+
 #funkcja wypisująca ruch. Zwraca ruch wybrany przez gracza po kliknięciu odpowiedniego klawisza
 import random
 def wypisz_ruch(wybierz):
-    if wybierz == '1':
-        return "Kamień"
+    if wybierz == 'kamień':
+        return "kamień"
     if wybierz == '2':
-        return "Papier"
+        return "papier"
     if wybierz == '3':
-        return "Nożyce"
+        return "nożyce"
 
 
 #funkcja losująca. Losuje jako komputer między konkretnym ruchem.
@@ -29,31 +33,31 @@ def czy_kobieta(imie):
 # funkcja sprawdzająca końcowy wynik. Zwraca wartość w postaci zmiennej x. 
 
 def sprawdzwynik(wybierz,wynik):
-    if wybierz == "1" and wynik == "Kamień":
+    if wybierz == "kamień" and wynik == "Kamień":
         x = "Jest remis"
         return x
-    elif wybierz == "1" and wynik == "Papier":
+    elif wybierz == "kamień" and wynik == "Papier":
         x = "Przegrywasz"
         return x
-    elif wybierz == "1" and wynik == "Nożyce":
+    elif wybierz == "kamień" and wynik == "Nożyce":
         x = "Wygrywasz"
         return x
-    elif wybierz == "2" and wynik == "Kamień":
+    elif wybierz == "papier" and wynik == "Kamień":
         x = "Wygrywasz"
         return x
-    elif wybierz == "2" and wynik == "Papier":
+    elif wybierz == "papier" and wynik == "Papier":
         x = "Remis"
         return x
-    elif wybierz == "2" and wynik == "Nożyce":
+    elif wybierz == "papier" and wynik == "Nożyce":
         x = "Przegrywasz"
         return x
-    elif wybierz == "3" and wynik == "Kamień":
+    elif wybierz == "nożyce" and wynik == "Kamień":
         x = "Przegrywasz"
         return x
-    elif wybierz == "3" and wynik == "Papier":
+    elif wybierz == "nożyce" and wynik == "Papier":
         x = "Wygrywasz"
         return x
-    elif wybierz == "3" and wynik == "Nożyce":
+    elif wybierz == "nożyce" and wynik == "Nożyce":
         x = "Remis"
         return x
 
@@ -64,3 +68,15 @@ def mow():
 
 wywolaj_mowi = mow()
 print(wywolaj_mowi[1])
+
+pole = ""
+if pole == False:
+    print("nie nie wpisałeś")
+else:
+    pole == True
+    print("wpisałeś")
+
+pole2 = ""
+if not pole2:
+    print("Nie wpisałeś")
+else: print("cos wpisales")
