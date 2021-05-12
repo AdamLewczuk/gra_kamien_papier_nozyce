@@ -1,6 +1,3 @@
-# funkcja_rozpoznawania_głosu
-
-
 
 #funkcja wypisująca ruch. Zwraca ruch wybrany przez gracza po kliknięciu odpowiedniego klawisza
 import random
@@ -62,21 +59,21 @@ def sprawdzwynik(wybierz,wynik):
         return x
 
 # funkcja mówiąca
-def mow():
-    lista = ["Zagrajmy w kamień, papier, nożyce","Wybierz jedną z opcji w menu","Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. "]
-    return lista
+# def mow():
+#     lista = ["Zagrajmy w kamień, papier, nożyce","Wybierz jedną z opcji w menu","Jeżeli chcesz wybrać Kamień wciśnij jeden. Papier wciśnij dwa. Nożyce wciśnij trzy. "]
+#     return lista
 
-wywolaj_mowi = mow()
-print(wywolaj_mowi[1])
+# wywolaj_mowi = mow()
+# print(wywolaj_mowi[1])
 
-pole = ""
-if pole == False:
-    print("nie nie wpisałeś")
-else:
-    pole == True
-    print("wpisałeś")
+# pole = ""
+# if pole == False:
+#     print("nie nie wpisałeś")
+# else:
+#     pole == True
+#     print("wpisałeś")
 
-pole2 = ""
-if not pole2:
-    print("Nie wpisałeś")
-else: print("cos wpisales")
+# pole2 = ""
+# if not pole2:
+#     print("Nie wpisałeś")
+# else: print("cos wpisales")
