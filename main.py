@@ -49,3 +49,4 @@ while isNewGame:
    graj()
    isNewGame = ponow()
 else: print("Dziekuję za grę")
+#dsdsd
